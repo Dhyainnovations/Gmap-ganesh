@@ -1194,7 +1194,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
   /***/
   function _(module, exports, __webpack_require__) {
     module.exports = __webpack_require__(
-    /*! /Users/dhyainnovations/Desktop/ionic-native-googlemaps/src/main.ts */
+    /*! /Users/dhyainnovations/Desktop/gmap-ganesh/src/main.ts */
     "./src/main.ts");
     /***/
   }
