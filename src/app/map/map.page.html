@@ -1,0 +1,30 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Map</ion-title>
+    <ion-title>{{show}}</ion-title>
+
+  </ion-toolbar>
+</ion-header>
+
+<!-- <ion-content> -->
+  <!-- <div id ="map_canvas" class = "map_canvas"> -->
+    <!-- <ion-button (click)="openHome()">Back to home page</ion-button> -->
+  <!-- </div> -->
+ 
+<!-- </ion-content> -->
+<!-- <div id = "map_canvas" class = "map_canvas">
+  <button (click)="openStart()">Back to Home Page</button>
+</div> -->
+
+<h1>{{address}}</h1>
+<h1>{{latitude}}</h1>
+<h1>{{longitude}}</h1>
+<p>{{show}}</p>
+
+<div id="dvMap" style="width: 100vw; height:100vh"></div>
+
+<button (click)="delete()" class="btn btn-primary delete">deleteMarker</button>
+
+<button (click)="currentLocation()" class="btn btn-primary delete">Current location</button>
+
+
